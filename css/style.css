@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+/* as there will be no more than one h1 used on this page, I choose to use a type selector instead of a class*/
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  text-shadow: 1.5px 1px 2px rgb(16, 137, 40);
+  letter-spacing: 2px;
+  text-align: center;
+}
