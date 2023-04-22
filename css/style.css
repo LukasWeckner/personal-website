@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+/* as there will be no more than one h1 used on this page, I choose to use a type selector instead of a class*/
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  text-shadow: 1.5px 1px 4px rgb(6, 74, 20);
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+/*Class Selectors*/
+.standardHeading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(6, 74, 20);
+}
+.codingHeading::before {
+  content: "👨🏻‍💻";
+  margin-right: 5px;
+}
+.socialHeading::before {
+  content: "👬";
+  margin-right: 5px;
+}
