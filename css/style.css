@@ -1,13 +1,15 @@
 * {
   box-sizing: border-box;
 }
+body {
+  text-align: center;
+}
 /* as there will be no more than one h1 used on this page, I choose to use a type selector instead of a class*/
 h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: uppercase;
   text-shadow: 1.5px 1px 4px rgb(6, 74, 20);
   letter-spacing: 2px;
-  text-align: center;
 }
 
 /*Class Selectors*/
@@ -22,4 +24,19 @@ h1 {
 .socialHeading::before {
   content: "👬";
   margin-right: 5px;
+}
+
+.projectFlexParent {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.projectBox {
+  width: 50%;
+}
+.projectImg {
+  border-radius: 8%;
+  border: 2px solid rgb(186, 168, 152);
+  box-shadow: 3px 2px 5px rgb(186, 168, 152);
 }
